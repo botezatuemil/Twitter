@@ -8,7 +8,7 @@ This was a project made in second year of university in a group of 4, for Modern
 
 ## Features
 
-#### 1. Client Server Architecture
+### 1. Client Server Architecture
 - A text file was used to communicate between client and server with custom messages for commands
 - The client opens the file and writes a formatted request, saves the file and close it.
 - The server sees that the data changed, it process it and writes the response to an output file
@@ -56,7 +56,7 @@ enum class Action
 ```
 
 
-#### 2. SQLite Database
+### 2. SQLite Database
 
 All CRUD operations are functions that calls whenever an insert or deletion occurs.
 
@@ -84,7 +84,7 @@ void DatabaseUtility::InsertData(const char* s, const std::string& sql, Database
 }
 ```
 
-#### 3. User search with Levenshtein distance
+### 3. User search with Levenshtein distance
 
 ```c++
 int UserBD::LevenshteinDistance(std::string searchedWord, std::string value)
