@@ -120,6 +120,7 @@ This was used to search in all posts by a key
 
 ```c++
 std::unordered_multimap<std::string, std::shared_ptr<Post>> indexTable = std::move(PostDB::GetIndexTable());
+
 ```
 
 ### 5. Social Graph
